@@ -1,0 +1,29 @@
+  
+body {
+    margin: 30px;
+    padding: 5px;
+    background-color: orange;
+  }
+  
+  #head{
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  #div1{
+    background-color: red;
+    border: 1px solid black;
+    
+  }
+  
+  #div2{
+    background-color: green;
+    border: 1px solid black;
+    
+  }
+  
+  #div3{
+    background-color: grey;
+    border: 1px solid black;
+    
+  }
