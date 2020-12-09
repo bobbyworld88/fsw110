@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Form</title>
+  <script src="travel.js"></script>
+</head>
+<body>
+  <form name="myForm">
+    
+    <p id="form-row">First name</p>
+    <input name="first_Name" id="firstName" type="text" class="user-input" value="">
+    <p id="form-row">Last name</p>
+    <input name="last_Name" id="lastName" type="text" class="user-input" value="">
+    <p id="form-row">Age</p>
+    <input name="age" id="age_1" class="user-input" ></input>
+    <div>
+      <input type="radio" id="gender-1" name="gender" value="Male">Male 
+      <input type="radio" id="gender-2" name="gender" value="Female">Female
+    </div>
+    <p>Location</p>
+    <select name="list" id="location">
+      <option value="Texas">Illinios</option>
+      <option value="Las Vegas">Texas</option>
+      <option value="Seattle">Virginia</option>
+    </select>
+    <p>Food Options:</p>
+
+
+  <input type="checkbox" class="checkBox1">
+  <label for="kosher" id="kosher" class="checkBox1">Kosher</label>
+  <input type="checkbox" id="veggie" class="checkBox1">
+  <label for="veggie">Vegetarian</label>
+  <input type="checkbox" id="lactose" class="checkBox1">
+  <label for="lactose">Lactose Free</label>
+  <input type="checkbox" id="pesca" class="checkBox1">
+  <label for="Pesca">Pescatarian</label>
+   
+    <p>*Please fill out every field</p>
+    <input type="button" onclick="submitForm()" value="Submit">
+  </form>
+  
+</body>
+</html>
