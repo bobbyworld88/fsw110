@@ -1,0 +1,43 @@
+html {
+    background-image: url("jesus-kiteque-wn-KYaHwcis-unsplash.jpg");
+    background-size: 550px;
+  
+  }
+  
+  .grid-container{
+    display: grid;
+    grid-template: repeat(1,1fr)/ repeat(1,1fr);
+    grid-template-areas: 
+    "name1"
+    "email1"
+    "message1"
+    "submit1"
+  
+    ;
+  
+  }
+  
+  body {
+    padding: 20px;
+    margin: 5px;
+    font-family: 'Neuton', serif;
+    text-align: center;
+    opacity: .8;
+    font-size: 20px;
+    
+    
+  }
+  
+  h1 {
+    background-color:  grey;
+    border: 2px solid black;
+  }
+  
+  h3 {
+    border: 2px solid black;
+  }
+  
+  p {
+    font-size: larger;
+  }
+  

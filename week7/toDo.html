@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List Assignment</title>
+  <link rel="stylesheet" href="toDo.css">
+  <link href="https://fonts.googleapis.com/css2?family=Neuton&display=swap" rel="stylesheet">
+  <script src="toDo.js"></script>
+</head>
+<body>
+  <h1>Bobby World's Information</h1>
+    <h3>Login</h3>
+  <form class="grid-container" id="myForm">
+    
+    <div id="name" class="grid-item">
+      <p id="form-row">Name</p>
+        <input name="name" id="name1" type="text" class="user-input" value="">
+    </div>
+    
+    <div id="email" class="grid-item">
+      <p id="form-row">Email</p>
+        <input name="email" id="email1" type="text" class="user-input" value="">
+    </div>
+    <!-- <input type="button" value="clear" onclick="clearText()" /> -->
+    
+    <div id="message" class="grid-item">
+      <p id="form-row">Message</p>
+        <input name="message" id="message1" class="user-input" ></input>
+    </div>
+    <!-- <input type="reset" value="clear" onclick="clearText()" /> -->
+    
+    <div id="submit" class="grid-item">
+      <p>*Please fill out every field</p>
+        <input type="submit" value="Submit" id="submit" onclick="submitForm()">
+        <input type="reset" value="Clear" onclick="clearText()" />
+    </div>
+     
+     
+      </form>
+      <ul id='list'></ul>
+  
+</body>
+</html>
