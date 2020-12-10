@@ -1,0 +1,120 @@
+  
+@font-face {
+    font-family: "Mario-Font";
+    src: url("SuperMario256.ttf");
+}
+body{
+    background-image: url('background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+p, h1, foot, .mario-font, div{
+    font-family: "Mario-Font";
+    text-shadow: 4px 4px 4px #333;
+}
+.title{
+    font-size: 64px;
+    line-height: 72px;
+    text-align: center;
+    color:yellow;
+    text-shadow: 4px 4px 4px #333;
+    
+}
+.img-wrap{
+    height: 175px;
+    width: 175px;
+    display: inline-block;
+}
+.img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+#goomba-img .img{
+    background-image: url('Goomba.png');
+}
+#bobomb-img .img{
+    background-image: url('Bobomb.png');
+}
+#cheep-img .img{
+    background-image: url('cheep.png');
+}
+.pestRow{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.img-wrap{
+    width: 25%;
+    position: relative;
+}
+.pest-meta{
+    width: 75%;
+    display: inline;
+    font-size: 40px;
+    line-height: 40px;
+    color: white;
+}
+button{
+    position: relative;
+    top: 8px;
+    font-family: "Mario-Font";
+    font-size: 60px;
+    line-height: 1px;
+    padding-top: 17px;
+    color: red;
+    background-color: white;
+    border: none;
+    outline: 0;
+    transition: all .25s ease-in-out;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.total{
+    font-size: 50px;
+    line-height: 58px;
+    color: yellow;
+    text-align: center;
+    margin-top: 30px;
+    border: collapse;
+}
+
+.grandTotal{
+    font-size: 50px;
+    line-height: 58px;
+    color: yellow;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.baddie-name{
+    color: yellow;
+    font-size: 30px;
+    line-height: 38px;
+    text-shadow: 4px 4px 4px #333;
+    z-index: 5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.foot{
+    border: collapse;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color:yellow;
+    text-shadow: 2px 2px 2px #333;
+}

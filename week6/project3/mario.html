@@ -1,0 +1,74 @@
+  
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>Mario Pest Control</title>
+    <link rel="stylesheet" href="/style.css"/>
+</head>
+
+<body>
+    <div>
+        <h1 class="title">Marios Pest Control</h1>
+    </div>
+
+
+    <div class="pestRow">
+        <div id="goomba-img" class="img-wrap">
+            <div class="img"></div>
+            <div class="baddie-name">Goomba</div>
+        </div>
+        <div class="pest-meta">
+            <div class="cost">Cost per: $5</div>
+            <div class="caught">
+                Total Caught: <span id="goomba-caught">0</span>
+                <button class="add-btn" onclick="addPest('goomba')">+</button>
+                <button class="subtract-btn" onclick="subtractPest('goomba')">-</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="pestRow">
+        <div id="bobomb-img" class="img-wrap">
+            <div class="img"></div>
+            <div class="baddie-name">Bob-omb</div>
+        </div>
+        <div class="pest-meta">
+            <div class="cost">Cost per: $7</div>
+            <div class="caught">
+                Total Caught: <span id="bobomb-caught">0</span>
+                <button onclick="addPest('bobomb')">+</button>
+                <button onclick="subtractPest('bobomb')">-</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="pestRow">
+        <div id="cheep-img" class="img-wrap">
+            <div class="img"></div>
+            <div class="baddie-name">Cheep Cheep</div>
+        </div>
+        <div class="pest-meta">
+            <div class="cost">Cost per: $11</div>
+            <div class="caught">
+                Total Caught: <span id="cheep-caught">0</span>
+                <button onclick="addPest('cheep')">+</button>
+                <button onclick="subtractPest('cheep')">-</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="total">Total Baddies Caught: <span id="pestTotal">0</span></div>
+
+    <div class="grandTotal">Total cost: $ <span id="totalCost">0</span></div>
+
+    <div>
+        <footer class="foot">mariopest @ mariobros.com | www.mlpestcontrol.com | 123 Peach Way, Toad, TX</footer>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
